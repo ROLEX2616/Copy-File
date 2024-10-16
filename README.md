@@ -22,6 +22,7 @@ Display the output
 ## PROGRAM:
 ```
 
+
 #Program for copying the contents from one file to another file.
 #Developed by AMALJOSH MAADHAV J
 #Reg num : 212223230012
@@ -31,6 +32,9 @@ with open("file.txt","r") as f1:
     with open("copy.txt","w") as f2:
         line=f1.read()
         f2.write(line)
+
+
+
 
 
 
