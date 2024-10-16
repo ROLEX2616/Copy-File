@@ -27,7 +27,7 @@ Display the output
 #Reg num : 212223230012
 
 
-with open("file1.txt","r") as f1:
+with open("file.txt","r") as f1:
     with open("copy.txt","w") as f2:
         line=f1.read()
         f2.write(line)
@@ -37,8 +37,13 @@ with open("file1.txt","r") as f1:
 
 
 ```
-### OUTPUT:
-
+## OUTPUT:
+### file.txt
+![image](https://github.com/user-attachments/assets/2a333748-78ac-42bd-8858-ebe2603246bc)
+### Python File Execution
+![image](https://github.com/user-attachments/assets/4983063c-5887-4576-a4ee-39f975ca5494)
+### copy.txt
+![image](https://github.com/user-attachments/assets/9dde4077-7d4f-4393-8d7f-a108ed4ac914)
 
 
 ## RESULT:
